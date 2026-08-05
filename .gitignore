@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+backend/venv/
+
+# IDE
+.vscode/
+
+# Python environment
+.env
+
+# ChromaDB
+chroma_db/
+
+# Model cache (optional)
+models/

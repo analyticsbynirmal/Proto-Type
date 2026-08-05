@@ -1,0 +1,69 @@
+.medverify-btn {
+  margin-top: 8px;
+  padding: 4px 10px;
+  font-size: 12px;
+  border-radius: 6px;
+  border: 1px solid #d0d7de;
+  background: #f6f8fa;
+  cursor: pointer;
+}
+.medverify-btn:hover {
+  background: #eaeef2;
+}
+.medverify-btn:disabled {
+  opacity: 0.6;
+  cursor: default;
+}
+
+.medverify-panel {
+  margin-top: 10px;
+  padding: 10px 12px;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  background: #ffffff;
+  font-size: 13px;
+}
+
+.medverify-error {
+  color: #cf222e;
+  border-color: #cf222e;
+}
+
+.medverify-header {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.medverify-claim-card {
+  padding: 8px 0;
+  border-top: 1px solid #eaeef2;
+}
+.medverify-claim-card:first-of-type {
+  border-top: none;
+}
+
+.medverify-claim-text {
+  margin-bottom: 4px;
+}
+
+.medverify-verdict {
+  display: inline-block;
+  padding: 2px 8px;
+  border: 1px solid;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.medverify-evidence-list {
+  margin: 4px 0 0 16px;
+  padding: 0;
+  font-size: 12px;
+  color: #57606a;
+}
+
+.medverify-nli-label {
+  font-weight: 600;
+  text-transform: capitalize;
+}

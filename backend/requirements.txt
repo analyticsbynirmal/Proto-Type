@@ -1,0 +1,15 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+requests==2.32.3
+transformers==4.44.2
+torch==2.4.1
+sentence-transformers==3.1.1
+chromadb==0.5.5
+spacy==3.7.5
+scispacy==0.5.4
+pydantic==2.9.2
+
+
+# After pip install, also run:
+#   python -m spacy download en_core_web_sm
+#   pip install https://s3-us-west-2.amazonaws.com/ai2-s2-scispacy/releases/v0.5.4/en_core_sci_sm-0.5.4.tar.gz
